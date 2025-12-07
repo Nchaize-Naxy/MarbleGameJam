@@ -29,6 +29,7 @@ public class TimerScript : MonoBehaviour
 
 	private void	OnTriggerEnter(Collider collider)
 	{
-		GameData.Timer_CanTick = !GameData.Timer_CanTick;
+		if(GameData.Timer_CanTick == false)
+			GameData.Timer_CanTick = !GameData.Timer_CanTick;
 	}
 }

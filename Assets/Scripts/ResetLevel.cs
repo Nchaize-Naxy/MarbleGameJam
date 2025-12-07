@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class ResetLevel : MonoBehaviour
 {
 	public GameData				GameData;
+	public Rigidbody			rb;
 
 	private ResetLevelInputs	reset;
 
@@ -27,6 +28,7 @@ public class ResetLevel : MonoBehaviour
 		GameData.Timer_CanTick = false;
 		GameData.Timer_Time = 0f;
 		GameData.Timer_TimerDisplay.color = new Color(1f, 1f, 1f, 1f);
+		rb.linearVelocity = new Vector3(0, 0, 0);
 	}
 }
 
