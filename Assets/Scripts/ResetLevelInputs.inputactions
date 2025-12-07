@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "ResetLevelInputs",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "370a7fa8-67ad-49b9-9497-8d654089b5ea",
+            "actions": [
+                {
+                    "name": "ResetLevel",
+                    "type": "Button",
+                    "id": "47fd0f96-822d-4192-a180-33f0a12b7fec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "852c281a-b5e3-482a-973a-89ae4923cf6b",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetLevel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
